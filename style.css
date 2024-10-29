@@ -3,40 +3,93 @@
 
 
 
-
-
-.intro {
-
-}
-
-.sidebar {
-
-}
-
-.wrapper {
-
-}
-
-.summary {
-
-}
-
 .page-wrapper {
 
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #D4BBDD;
+}
+
+#zen-intro {
+    
+}
+
+#zen-summary {
+    background-color: #f7e951;
+}
+
+.preamble {
+
+}
+
+#zen-preamble {
+    background-color: #f7e951;
 }
 
 .main-supporting {
 
 }
 
-.requirements {
-
+.participation {
+    background-color: #D4BBDD;
 }
 
 .benefits {
+    background-color: #D4BBDD;
+}
+
+.requirements {
+    background-color: #D4BBDD;
+}
+
+.sidebar {
+    background-color: #D4BBDD;
+}
+
+.wrapper {
+    background-color: #D4BBDD;
+}
+
+.design-selection {
 
 }
 
-.participation {
+.select {
 
 }
+
+.design-archives {
+
+}
+
+.archives {
+
+}
+
+.next {
+
+}
+
+.viewall {
+
+}
+
+.zen-resources {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
