@@ -4,21 +4,32 @@
 
 
 .page-wrapper {
+    background-color: #f8f8ff;
+    
+}
 
+[role|=banner] {
+    background-color: #D4BBDD;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
-    background-color: #D4BBDD;
 }
 
 #zen-intro {
-    
+
 }
 
 #zen-summary {
     background-color: #f7e951;
+    padding: 20px;
+    width: 66%;
+    height: 100%;
+    
+
 }
 
 .preamble {
@@ -27,6 +38,10 @@
 
 #zen-preamble {
     background-color: #f7e951;
+    padding: 20px;
+    width: 66%;
+    height: 100%;
+    
 }
 
 .main-supporting {
@@ -35,14 +50,22 @@
 
 .participation {
     background-color: #D4BBDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;
 }
 
 .benefits {
     background-color: #D4BBDD;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .requirements {
     background-color: #D4BBDD;
+    padding: 20px;
+    text-align: right;
+
 }
 
 .sidebar {
@@ -50,7 +73,7 @@
 }
 
 .wrapper {
-    background-color: #D4BBDD;
+
 }
 
 .design-selection {
