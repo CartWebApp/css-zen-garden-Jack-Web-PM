@@ -17,6 +17,7 @@
 .intro {
     display: flex;
     flex-direction: column;
+
 }
 
 #zen-intro {
@@ -28,7 +29,6 @@
     padding: 20px;
     width: 66%;
     height: 100%;
-    
 
 }
 
@@ -41,7 +41,14 @@
     padding: 20px;
     width: 66%;
     height: 100%;
-    
+    margin-bottom: 20px;
+}
+
+
+#zen-explanation {
+    background-color: rgb(212, 187, 221, 36%);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .main-supporting {
@@ -49,11 +56,16 @@
 }
 
 .participation {
-    background-color: #D4BBDD;
+    background-color: #f7e951;
     padding: 20px;
     margin-bottom: 20px;
     text-align: right;
+    width: 66%;
+    height: 100%;
+    justify-self: flex-end;
 }
+
+
 
 .benefits {
     background-color: #D4BBDD;
@@ -92,12 +104,19 @@
 
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
 .next {
 
 }
 
 .viewall {
-
+    justify-self: flex-end;
+    padding: 20px;
+    list-style-type: none;
 }
 
 .zen-resources {
